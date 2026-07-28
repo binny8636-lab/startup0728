@@ -1,1 +1,297 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>삼우정밀 | SAMWOO PRECISION</title>
+<meta name="description" content="0.01mm의 오차도 허용하지 않는 정밀가공 전문기업, 삼우정밀입니다.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<!-- 도면 등록 마크 (좌상단/우하단 코너 마크, 시각 시그니처) -->
+<div class="reg-mark reg-mark--tl" aria-hidden="true">+</div>
+<div class="reg-mark reg-mark--br" aria-hidden="true">+</div>
+
+<header class="site-header" id="header">
+  <div class="header-inner">
+    <a href="#top" class="logo">
+      <span class="logo-mark" aria-hidden="true"></span>
+      <span class="logo-text">SAMWOO<span class="logo-sub">PRECISION</span></span>
+    </a>
+
+    <nav class="main-nav" id="main-nav">
+      <a href="#about"><span class="nav-num">01</span>회사소개</a>
+      <a href="#capabilities"><span class="nav-num">02</span>사업분야</a>
+      <a href="#capacity"><span class="nav-num">03</span>생산능력</a>
+      <a href="#quality"><span class="nav-num">04</span>품질보증</a>
+      <a href="#history"><span class="nav-num">05</span>연혁</a>
+      <a href="#contact"><span class="nav-num">06</span>문의</a>
+    </nav>
+
+    <a href="#contact" class="btn btn--ghost header-cta">견적 문의</a>
+
+    <button class="nav-toggle" id="nav-toggle" aria-label="메뉴 열기" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero-grid" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-code">DWG NO. 2026-001</span><span class="eyebrow-line"></span>SCALE 1:1</p>
+        <h1 class="hero-title">
+          정밀은,<br>
+          <span class="hero-title--accent">타협하지 않습니다.</span>
+        </h1>
+        <p class="hero-desc">
+          1998년부터 삼우정밀은 ±0.01mm 공차를 다루는 정밀가공 기술로<br class="br-desktop">
+          자동차, 반도체, 이차전지 산업의 핵심 부품을 만들어왔습니다.
+        </p>
+        <div class="hero-actions">
+          <a href="#capabilities" class="btn btn--primary">사업분야 보기</a>
+          <a href="#contact" class="btn btn--text">도면 검토 요청 <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <svg viewBox="0 0 460 460" class="blueprint-svg" id="blueprint-svg">
+          <circle class="bp-draw" cx="230" cy="230" r="150" />
+          <circle class="bp-draw bp-delay1" cx="230" cy="230" r="96" />
+          <circle class="bp-draw bp-delay2" cx="230" cy="230" r="26" fill="none"/>
+          <g class="bp-teeth bp-delay2">
+            <line x1="230" y1="80" x2="230" y2="58"/>
+            <line x1="230" y1="380" x2="230" y2="402"/>
+            <line x1="80" y1="230" x2="58" y2="230"/>
+            <line x1="380" y1="230" x2="402" y2="230"/>
+            <line x1="124" y1="124" x2="108" y2="108"/>
+            <line x1="336" y1="336" x2="352" y2="352"/>
+            <line x1="124" y1="336" x2="108" y2="352"/>
+            <line x1="336" y1="124" x2="352" y2="108"/>
+          </g>
+          <line class="bp-draw bp-delay3" x1="230" y1="230" x2="230" y2="80"/>
+          <line class="bp-draw bp-delay3" x1="230" y1="18" x2="230" y2="230"/>
+          <line class="bp-dim bp-delay3" x1="10" y1="230" x2="10" y2="380"/>
+          <line class="bp-dim bp-delay3" x1="4" y1="230" x2="16" y2="230"/>
+          <line class="bp-dim bp-delay3" x1="4" y1="380" x2="16" y2="380"/>
+          <text class="bp-label bp-delay3" x="-105" y="14" transform="rotate(-90)">⌀300</text>
+          <text class="bp-label bp-delay3" x="238" y="150">R96</text>
+          <text class="bp-label bp-delay3" x="238" y="255">±0.01</text>
+        </svg>
+      </div>
+    </div>
+
+    <div class="hero-specs">
+      <div class="spec"><span class="spec-value">±0.01<span class="spec-unit">mm</span></span><span class="spec-label">가공 공차</span></div>
+      <div class="spec"><span class="spec-value">24<span class="spec-unit">H</span></span><span class="spec-label">무중단 생산</span></div>
+      <div class="spec"><span class="spec-value">99.98<span class="spec-unit">%</span></span><span class="spec-label">양품률</span></div>
+      <div class="spec"><span class="spec-value">ISO<span class="spec-unit">9001</span></span><span class="spec-label">품질경영 인증</span></div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section section--about" id="about">
+    <div class="section-inner">
+      <p class="eyebrow"><span class="eyebrow-code">01</span><span class="eyebrow-line"></span>회사소개</p>
+      <h2 class="section-title">도면 한 장의 오차가<br>제품 전체의 신뢰를 결정합니다.</h2>
+      <p class="section-lead">
+        삼우정밀은 1998년 설립 이래 CNC 정밀가공, 금형 설계·제작, 표면처리에 이르는
+        전 공정 내재화를 통해 고객이 요청한 치수를 도면 그대로 구현하는 것을
+        가장 중요한 원칙으로 삼아왔습니다. 자동화 검사 체계와 숙련된 엔지니어의
+        경험이 결합해, 대량생산 환경에서도 첫 개와 마지막 개의 편차가 없습니다.
+      </p>
+      <div class="about-grid">
+        <div class="about-item">
+          <span class="about-num">1998</span>
+          <span class="about-text">설립 연도</span>
+        </div>
+        <div class="about-item">
+          <span class="about-num">128<span class="about-unit">명</span></span>
+          <span class="about-text">엔지니어 및 생산인력</span>
+        </div>
+        <div class="about-item">
+          <span class="about-num">42<span class="about-unit">대</span></span>
+          <span class="about-text">정밀가공 설비</span>
+        </div>
+        <div class="about-item">
+          <span class="about-num">6<span class="about-unit">개국</span></span>
+          <span class="about-text">수출 대상국</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CAPABILITIES ============ -->
+  <section class="section section--dark" id="capabilities">
+    <div class="section-inner">
+      <p class="eyebrow"><span class="eyebrow-code">02</span><span class="eyebrow-line"></span>사업분야</p>
+      <h2 class="section-title">기획부터 출하까지,<br>하나의 공장에서.</h2>
+
+      <div class="cap-grid">
+        <article class="cap-card">
+          <div class="cap-frame" aria-hidden="true"></div>
+          <span class="cap-index">01</span>
+          <h3 class="cap-title">CNC 정밀가공</h3>
+          <p class="cap-desc">5축 가공기 기반으로 복잡 형상 부품을 ±0.01mm 공차로 절삭 가공합니다.</p>
+        </article>
+        <article class="cap-card">
+          <div class="cap-frame" aria-hidden="true"></div>
+          <span class="cap-index">02</span>
+          <h3 class="cap-title">금형 설계·제작</h3>
+          <p class="cap-desc">사출·프레스 금형을 자체 설계하여 양산 초기 리드타임을 단축합니다.</p>
+        </article>
+        <article class="cap-card">
+          <div class="cap-frame" aria-hidden="true"></div>
+          <span class="cap-index">03</span>
+          <h3 class="cap-title">조립 및 검사</h3>
+          <p class="cap-desc">3차원 측정기(CMM)를 활용한 전수·샘플 검사로 출하 전 이상을 걸러냅니다.</p>
+        </article>
+        <article class="cap-card">
+          <div class="cap-frame" aria-hidden="true"></div>
+          <span class="cap-index">04</span>
+          <h3 class="cap-title">표면처리</h3>
+          <p class="cap-desc">아노다이징, 무전해 니켈 도금 등 용도별 표면처리 공정을 함께 운영합니다.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CAPACITY ============ -->
+  <section class="section" id="capacity">
+    <div class="section-inner">
+      <p class="eyebrow"><span class="eyebrow-code">03</span><span class="eyebrow-line"></span>생산능력</p>
+      <h2 class="section-title">숫자로 증명하는<br>생산 안정성.</h2>
+
+      <div class="stat-grid">
+        <div class="stat-card">
+          <span class="stat-number" data-count="42">0</span>
+          <span class="stat-label">보유 정밀가공 설비(대)</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number" data-count="3">0</span>
+          <span class="stat-label">교대 무중단 생산체계</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number" data-count="850" data-suffix="만개">0</span>
+          <span class="stat-label">연간 생산량</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number" data-decimal="0.02" data-suffix="%">0</span>
+          <span class="stat-label">공정 불량률</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ QUALITY ============ -->
+  <section class="section section--paper" id="quality">
+    <div class="section-inner">
+      <p class="eyebrow"><span class="eyebrow-code">04</span><span class="eyebrow-line"></span>품질보증</p>
+      <h2 class="section-title">인증이 아니라,<br>습관으로서의 품질.</h2>
+      <p class="section-lead">
+        국제 품질경영 표준을 획득하는 것에 그치지 않고, 모든 공정에 검사 기준을
+        내재화하여 담당자가 바뀌어도 동일한 품질이 유지되도록 관리합니다.
+      </p>
+
+      <div class="cert-row">
+        <span class="cert-badge">ISO 9001</span>
+        <span class="cert-badge">ISO 14001</span>
+        <span class="cert-badge">IATF 16949</span>
+        <span class="cert-badge">KS Q ISO</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ HISTORY ============ -->
+  <section class="section" id="history">
+    <div class="section-inner">
+      <p class="eyebrow"><span class="eyebrow-code">05</span><span class="eyebrow-line"></span>연혁</p>
+      <h2 class="section-title">한 걸음씩,<br>정밀도를 높여온 시간.</h2>
+
+      <ol class="timeline">
+        <li class="timeline-item">
+          <span class="timeline-year">1998</span>
+          <p class="timeline-text">경기도 안산에 삼우정밀 설립, CNC 선반가공 사업 개시</p>
+        </li>
+        <li class="timeline-item">
+          <span class="timeline-year">2006</span>
+          <p class="timeline-text">5축 가공기 도입, 복합형상 부품 가공 체계 구축</p>
+        </li>
+        <li class="timeline-item">
+          <span class="timeline-year">2013</span>
+          <p class="timeline-text">ISO 9001 / 14001 인증 취득, 자동차 부품 협력사 등록</p>
+        </li>
+        <li class="timeline-item">
+          <span class="timeline-year">2019</span>
+          <p class="timeline-text">제2공장 준공, 반도체 장비 부품 생산라인 신설</p>
+        </li>
+        <li class="timeline-item">
+          <span class="timeline-year">2024</span>
+          <p class="timeline-text">IATF 16949 인증 취득, 이차전지 부품 양산 개시</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section section--dark contact" id="contact">
+    <div class="section-inner">
+      <p class="eyebrow"><span class="eyebrow-code">06</span><span class="eyebrow-line"></span>문의</p>
+      <h2 class="section-title">도면을 보내주시면,<br>가공 가능 여부부터 회신드립니다.</h2>
+
+      <div class="contact-panel">
+        <div class="contact-info">
+          <div class="contact-row">
+            <span class="contact-label">TEL</span>
+            <span class="contact-value">031-000-0000</span>
+          </div>
+          <div class="contact-row">
+            <span class="contact-label">EMAIL</span>
+            <span class="contact-value">contact@samwoo-precision.co.kr</span>
+          </div>
+          <div class="contact-row">
+            <span class="contact-label">ADDR</span>
+            <span class="contact-value">경기도 안산시 단원구 산업로 000</span>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form">
+          <div class="form-row">
+            <label for="f-name">담당자명</label>
+            <input type="text" id="f-name" name="name" required placeholder="홍길동">
+          </div>
+          <div class="form-row">
+            <label for="f-email">이메일</label>
+            <input type="email" id="f-email" name="email" required placeholder="name@company.com">
+          </div>
+          <div class="form-row">
+            <label for="f-message">문의 내용</label>
+            <textarea id="f-message" name="message" rows="3" required placeholder="가공 품목, 수량, 도면 유무 등을 남겨주세요."></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary form-submit">문의 보내기</button>
+          <p class="form-status" id="form-status" role="status"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="section-inner footer-inner">
+    <span class="logo-text logo-text--sm">SAMWOO<span class="logo-sub">PRECISION</span></span>
+    <p class="footer-copy">© 2026 SAMWOO PRECISION Co., Ltd. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
